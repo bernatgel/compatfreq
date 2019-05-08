@@ -1,0 +1,26 @@
+Package: compatfreq
+Type: Package
+Title: Use SNP frequency to check sample relations
+Version: 0.0.1
+Author: Bernat Gel <bgel@igtp.cat>
+Maintainer: Bernat Gel <bgel@igtp.cat>
+Description: compatfreq checks the relation between samples
+Depends:
+    R (>= 3.6),
+    karyoploteR
+Imports:
+    regioneR,
+    IRanges,
+    methods,
+    stats
+Suggests:
+    BiocStyle,
+    knitr
+License: Artistic-2.0
+URL: https://github.com/bernatgel/compatfreq
+BugReports: https://github.com/bernatgel/compatfreq/issues
+Encoding: UTF-8
+VignetteBuilder: knitr
+biocViews: Visualization
+LazyData: false
+RoxygenNote: 6.1.1
